@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC"
+    android:padding="16.dp"
+    android:layoutDirection="rtl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- عنوان التطبيق -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إدارة المكتبة والأرباح"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B"
+            android:gravity="center"
+            android:layout_marginBottom="16.dp" />
+
+        <!-- لوحة الملخص المالي -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1E293B"
+            android:padding="16.dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="20.dp">
+
+            <TextView
+                android:id="@+id/txtTotalCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="إجمالي التكلفة: 0.0 د.ل"
+                android:textColor="#94A3B8"
+                android:textSize="14sp"
+                android:layout_marginBottom="6.dp" />
+
+            <TextView
+                android:id="@+id/txtTotalRevenue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="المبيعات المتوقعة: 0.0 د.ل"
+                android:textColor="#94A3B8"
+                android:textSize="14sp"
+                android:layout_marginBottom="6.dp" />
+
+            <TextView
+                android:id="@+id/txtTotalProfit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="صافي الربح: 0.0 د.ل"
+                android:textColor="#34D399"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="6.dp" />
+
+            <TextView
+                android:id="@+id/txtProfitPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نسبة الأرباح: 0.0%"
+                android:textColor="#60A5FA"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- قسم إدخال منتج جديد -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إضافة منتج جديد للمخزون"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#334155"
+            android:layout_marginBottom="10.dp" />
+
+        <EditText
+            android:id="@+id/edtProductName"
+            android:layout_width="match_parent"
+            android:layout_height="50.dp"
+            android:hint="اسم الكتاب أو المنتج"
+            android:background="#FFFFFF"
+            android:padding="12.dp"
+            android:textSize="14sp"
+            android:textColor="#1E293B"
+            android:layout_marginBottom="10.dp" />
+
+        <EditText
+            android:id="@+id/edtPurchasePrice"
+            android:layout_width="match_parent"
+            android:layout_height="50.dp"
+            android:hint="سعر الشراء (التكلفة)"
+            inputType="numberDecimal"
+            android:background="#FFFFFF"
+            android:padding="12.dp"
+            android:textSize="14sp"
+            android:textColor="#1E293B"
+            android:layout_marginBottom="10.dp" />
+
+        <EditText
+            android:id="@+id/edtSellingPrice"
+            android:layout_width="match_parent"
+            android:layout_height="50.dp"
+            android:hint="سعر البيع"
+            inputType="numberDecimal"
+            android:background="#FFFFFF"
+            android:padding="12.dp"
+            android:textSize="14sp"
+            android:textColor="#1E293B"
+            android:layout_marginBottom="10.dp" />
+
+        <EditText
+            android:id="@+id/edtQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="50.dp"
+            android:hint="الكمية في المخزون"
+            inputType="number"
+            android:background="#FFFFFF"
+            android:padding="12.dp"
+            android:textSize="14sp"
+            android:textColor="#1E293B"
+            android:layout_marginBottom="16.dp" />
+
+        <Button
+            android:id="@+id/btnAddProduct"
+            android:layout_width="match_parent"
+            android:layout_height="55.dp"
+            android:text="حفظ وإضافة للمخزون"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#10B981" />
+
+    </LinearLayout>
+</ScrollView>

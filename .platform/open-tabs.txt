@@ -1,0 +1,3 @@
+#v2
+0
+/storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/bookstoremanager/app/src/main/kotlin/com/example/bookstoremanager/ui/SettingsScreen.kt	24694	432	text

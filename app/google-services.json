@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48528054789",
+    "project_id": "kasebo-f5b15",
+    "storage_bucket": "kasebo-f5b15.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48528054789:android:d0c8f2e3c88df245971a6c",
+        "android_client_info": {
+          "package_name": "com.example.bookstoremanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdmrl7Y3791j6p2bqureziVE4Lan4jDDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
